@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/Skills.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <title>Skills</title>
 </head>
 <body>
-    <h1>Skills</h1>
-    <ul>
-        <% skills.forEach(function(s) { %>
-            <li>
-                <a href="/skills/<%= s.id %>"><%= s.skill %></a>
-                -
-                <%= s.level %>
-            </li>
-        <% }) %>
-    </ul>
+    <main>
+        <h1>Skills</h1>
+        <ul>
+            <% skills.forEach(function(s) { %>
+                <li>
+                    <a href="/skills/<%= s.id %>"><%= s.skill %></a>
+                    -
+                    <%= s.level %>
+                </li>
+            <% }) %>
+        </ul>
+    </main>
 </body>
 </html>

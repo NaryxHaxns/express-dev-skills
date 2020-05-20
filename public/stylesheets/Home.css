@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  padding: 50px;
+  font-family: 'Satisfy', cursive;
+  background-color: rgb(90, 0, 90);
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+  width: 600px;
+  color: aqua;
+}
+
+a {
+  color: rgb(255, 0, 221);
+  font-size: 20px;
+}
+
+img {
+  display: grid;
+  justify-self: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 100px;
+  border: 5px solid aqua;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}

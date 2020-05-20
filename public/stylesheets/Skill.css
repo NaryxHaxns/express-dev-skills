@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    background: radial-gradient(closest-side, rgb(153,0,51), rgb(255,206,0), rgb(0,108,128));
+    background-repeat: no-repeat;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: 205px;
+}
