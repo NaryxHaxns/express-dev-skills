@@ -1,8 +1,10 @@
 body {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aqua;
     color: rgb(90, 0, 90);
-    padding: 200px;
     font-family: 'Yellowtail', cursive;
 }
 
@@ -11,8 +13,8 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }  
 
 h1 {
@@ -26,8 +28,20 @@ ul {
 
 a {
     color: rgb(255, 0, 221);
+    font-size: 25px;
 }
 
 a:visited {
     color: rgb(255, 0, 221);
+}
+
+.delete-form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.delete-form button {
+    color: rgb(90, 0, 90);
+    background: transparent;
+    border: 1px solid rgb(90, 0, 90);
 }

@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(closest-side, rgb(153,0,51), rgb(255,123,0), rgb(255,206,0), rgb(165,214,16), rgb(0,108,128), rgb(90,0,90));
+    background-repeat: no-repeat;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 700px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+input, button {
+    display: inline-block;
+}
+
+input {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    height: 40px;
+    color: rgb(90,0,90);
+}
+
+button {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid rgb(90,0,90);
+    height: 50px;
+    width: 100px;
+}
+
+.return {
+    font-size: 20px;
+}

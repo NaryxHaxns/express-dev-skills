@@ -1,8 +1,10 @@
 body {
   height: 100vh;
-  padding: 50px;
   font-family: 'Satisfy', cursive;
   background-color: rgb(90, 0, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {

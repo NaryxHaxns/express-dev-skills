@@ -9,8 +9,10 @@
 </head>
 <body>
     <main>
+        <a href="/" class="return">Home</a> | <a href="/skills" class="return">Skills List</a>
         <h3><%= skill.skill %></h3>
         <h3>Level: <%= skill.level %></h3>
+        <a href="/skills/<%= skill.id %>/edit" class="ed">Edit Skill</a>
     </main>
 </body>
 </html>

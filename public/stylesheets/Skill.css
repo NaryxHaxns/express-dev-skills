@@ -1,9 +1,11 @@
 body {
     height: 100vh;
-    background: radial-gradient(closest-side, rgb(153,0,51), rgb(255,206,0), rgb(0,108,128));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(closest-side, rgb(0,108,128), rgb(255,206,0), rgb(153,0,51));
     background-repeat: no-repeat;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 50px;
 }
 
 main {
@@ -11,7 +13,18 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 300px;
-    width: 300px;
-    padding: 205px;
+    height: 400px;
+    width: 500px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.ed {
+    font-size: 30px;
+}
+
+.return {
+    font-size: 20px;
 }
